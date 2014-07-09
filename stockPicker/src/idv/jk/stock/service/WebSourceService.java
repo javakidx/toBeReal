@@ -1,7 +1,11 @@
 package idv.jk.stock.service;
 
+import java.io.File;
 import java.io.IOException;
 import java.net.MalformedURLException;
+import java.net.URL;
+
+import org.apache.commons.io.FileUtils;
 
 public class WebSourceService {
 	public static void main(String... argv)
